@@ -1,0 +1,45 @@
+.img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.img {
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.img-shape-circle {
+  border-radius: 100%;
+  //object-fit: cover;
+}
+
+.img-shape-square {
+  border-radius: 8px;
+  //object-fit: contain;
+}
+
+.loading {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 24px;
+  width: 24px;
+  font-size: 24px;
+  color: purple;
+  z-index: 9;
+}
+
+.model-content {
+  padding: 20px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  cursor: pointer;
+}
