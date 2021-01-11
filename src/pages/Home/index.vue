@@ -5,7 +5,7 @@
       <p>sample list：</p>
       <ul>
         <li>1.<router-link to="/buttonDemo">按钮组件</router-link></li>
-        <li>2.<router-link to="/buttonDemo">图片组件</router-link></li>
+        <li>2.<router-link to="/figureDemo">图片组件</router-link></li>
       </ul>
     </div>
   </div>

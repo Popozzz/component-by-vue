@@ -13,26 +13,14 @@
 </template>
 
 <script>
-import Button from "@components/Button";
+import ToolTip from "@components/Button";
 
 export default {
-  name: "ButtonDemo",
+  name: "ToolTipDemo",
   components: {
-    Button,
+    ToolTip,
   },
-  data() {
-    return {
-      number: 1,
-    };
-  },
-  methods: {
-    async handleClick() {
-      await new Promise((resolve) => {
-        setTimeout(resolve, 5000);
-      });
-      console.log("hhhh", this.number);
-    },
-  },
+  methods: {},
 };
 </script>
 
