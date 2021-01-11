@@ -33,7 +33,16 @@ export default {
       };
     },
   },
-  methods: {},
+  methods: {
+    measureWidth() {
+      const { text } = this;
+
+      const div = document.createElement("div");
+
+      div.innerText = text;
+      console.log("div", div.width);
+    },
+  },
 };
 </script>
 
